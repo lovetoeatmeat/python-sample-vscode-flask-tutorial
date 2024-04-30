@@ -4,11 +4,11 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-branches:
+  branches:
     include: 
-      - releases/*
+      - aaa
     exclude:
-      - releases/old*
+      - zzz
 #- main
 
 pool:
