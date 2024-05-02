@@ -4,12 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-  branches:
-    include: 
-      - aaa
-    exclude:
-      - zzz
-#- main
+  - main
 
 pool:
   vmImage: windows-latest
